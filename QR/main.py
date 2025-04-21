@@ -6,10 +6,10 @@ import time
 
 def generate_qrcode():
     # Hardcoded URL
-    url = "https://github.com/azure069"  # Replace with your desired URL
+    url = "https://example.com"  # Replace with your desired URL
 
     # Generate the QR code using qrcode.QRCode
-    qr = qrcode.QRCode(  # Use qrcode.QRCode, NOT just QRCode
+    qr = qrcode.QRCode(  
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_H,
         box_size=5,
