@@ -11,7 +11,6 @@ def check_place(char_g, char_w, place):
     else:
         return ""
 
-
 # Function to start a new game
 def start_game():
     global wordle
@@ -71,11 +70,11 @@ def on_leave(e, button):
     button.config(bg="#e7e7e7", fg="black", relief="flat", bd=2)  # Default color after hover
 
 
-# Setting up the main Tkinter window
+# Main Tkinter window
 root = tk.Tk()
 root.title("Wordle Game")
-root.geometry("600x500")  # Set the window size
-root.config(bg="#f2f2f2")  # Set background color to light gray
+root.geometry("600x500")  
+root.config(bg="#f2f2f2")  
 
 # Start window frame
 start_window = tk.Frame(root, bg="#f2f2f2")
