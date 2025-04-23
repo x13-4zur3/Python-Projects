@@ -10,8 +10,6 @@ Send personalized bulk emails using Gmail and an **App Password** (for accounts 
 - Sends formatted emails using `smtplib`.
 - Secure authentication via app passwords.
 
-> **Note:** Never expose your app password or email credentials in code. Use `.env` files or environment variables.
-
 ---
 
 ### 2. 🎮 Hangman Game
