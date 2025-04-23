@@ -29,7 +29,7 @@ Easily generate QR codes for links, messages, or any text.
 ---
 
 ### 4. 🟩 Wordle Game
-A clone of the popular **Wordle** game, playable in the terminal.
+A clone of the popular **Wordle** game, playable with GUI.
 - 5-letter word guessing with feedback.
 - Colored hints using ANSI escape codes.
 - Customizable word list.
