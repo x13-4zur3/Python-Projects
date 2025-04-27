@@ -1,7 +1,6 @@
 qrcode
 pillow
 
-# For Hangman & Wordle (both use tkinter and messageboxes)
 requests
 
 # For environment variable management (if needed for email credentials)
