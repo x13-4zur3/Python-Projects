@@ -3,5 +3,4 @@ pillow
 
 requests
 
-# For environment variable management (if needed for email credentials)
 python-dotenv
